@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+
+    <script defer src="index.js"></script>
+    <title>Mon portfolio</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="person-front-computer-working-html.jpg" alt="">
+        <li id="burger"><i class="fa-solid fa-bars"></i></li>
+        <ul>
+            <li><a href="#moi">Accueil</a></li>
+            <li><a href="#forMe">Profil</a></li>
+            <li><a href="#capacity">Compétences</a></li>
+            <li><a href="#beforefooter">Contact</a></li>
+        </ul>
+    </div>
+    <header>
+        <div id="moi">
+            <ul>
+                <li id="myName">AMATH FAM</li>
+                <li id="dev">Développeur Web</li>
+                <li id="btname"><a href="#forMe"><button>QUI-SUIS JE?</button></a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="forMe">
+        <h1>A PROPOS DE MOI</h1>
+        <div class="text">
+            <img src="person-front-computer-working-html.jpg" alt="">
+            <li id="parcour">Après avoir obtenu mon baccalauréat en 2022, j’ai été orienté vers des études de médecine. Pendant trois ans, j’ai suivi ce parcours, mais j’ai fini par réaliser que ce n’était pas ma véritable passion. J’ai alors pris la décision difficile d’arrêter pour me recentrer sur ce qui m’attirait vraiment. Naturellement, mon intérêt pour l’informatique a grandi, et un jour, j’ai entendu parler du métier de développeur web. Ce fut une révélation, un véritable coup de foudre, comme si c’était ce que j’avais toujours voulu faire. Déterminé, j’ai suivi une formation accélérée de six mois avec un professeur très talentueux, un développeur fullstack expérimenté. Grâce à son enseignement, j’ai acquis des compétences solides et, à la fin de ma formation, j’ai reçu une attestation attestant de mon niveau professionnel en développement web. Aujourd’hui, je suis prêt à mettre mes compétences au service de projets ambitieux et innovants.</li>
+        </div>
+    </div>
+    <div class="now">
+        <p>Actuellement: <br>Je suis développeur web freelance</p>
+    </div>
+    <div class="knowledge">
+        <ul>
+            <li id="compt">Compétences</li>
+            <li id="amour">Chaque fois que je m’installe devant ma machine, je ressens une joie immense, comme si je donnais vie à mes idées. Écrire du code me procure un sentiment de fierté, car chaque ligne est une nouvelle avancée vers la création. Coder n’est pas juste un travail pour moi, c’est une passion qui me fait vibrer chaque jour.</li>
+        </ul>
+        <div id="capacity">
+            <div class="FULLSTACK">
+                <h1>BACK-END</h1>
+                <form action="">
+                    <label for="">PHP</label><br>
+                    <input id="i1" type="text"><br>
+                    <label for="">SQL</label><br>
+                    <input id="i2" type="text"><br>
+                    <label for="">SYMPHONY</label><br>
+                    <input id="i3" type="text"><br>
+                    <label for="">SMARTY</label><br>
+                    <input id="i4" type="text"><br>
+                </form>
+                <h1>FRONT-END</h1>
+                <form action="">
+                    <label for="">HTML</label><br>
+                    <input id="i5" type="text"><br>
+                    <label for="">CSS</label><br>
+                    <input id="i6" type="text"><br>
+                    <label for="">JAVASCRIPT</label><br>
+                    <input id="i7" type="text"><br>
+                    <button>Télécharger mon cv</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="citation">
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">Codez comme si la personne qui finit par maintenir votre <br> code est un psychopathe violent qui sait où vous vivez.</li>
+                      <li class="splide__slide">N’importe quel idiot peut écrire du code qu'un ordinateur <br>peut comprendre. Les bons programmeurs écrivent du code que les humains peuvent comprendre</li>
+                      <li class="splide__slide">N’importe quel idiot peut écrire du code qu'un ordinateur peut comprendre. <br> Les bons programmeurs écrivent du code que les humains peuvent comprendre</li>
+                  </ul>
+            </div>
+          </section>
+    </div>
+    <div id="beforefooter">
+        <h1>CONTACTER-MOI</h1>
+        <p>N'hésitez pas à me contacter, je vous répondrai dans les plus brefs délais.</p>
+        <div class="opaque">
+            <form action="">
+                <label for="nom">Nom*</label><br>
+                <input type="text" id="nom"><br>
+                <label for="prenom">Prénom</label><br>
+                <input type="text" id="prenom"><br>
+                <label for="mail">Email</label><br>
+                <input type="text" id="mail"><br>
+                <label for="tel">Téléphone</label><br>
+                <input type="text" id="tel"><br>
+                <label for="object">Objet*</label><br>
+                <input type="text" id="object"><br>
+                <label for="texter">Message*</label><br>
+                <textarea name="" id="texter"></textarea><br>
+                <label for="">* obligatoire</label><br>
+                <input type="checkbox" name="" id="check">
+                <label for="check">En soumettant ce formulaire, j'accepte que mes données personnelles soient <br>utilisées pour me recontacter. Aucun autre traitement ne sera effectué avec mes <br>informations. Pour connaître et exercer vos droits, veuillez consultez la Politique de confidentialité.</label><br>
+                <button>Envoyer</button>
+            </form>
+            <ul id="contacts">
+                <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-phone-flip"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-house"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="foot">
+        <h5>© Copyright 2025 - Amath Fam. Tous droits réservés.</h5>
+        <p>Plan du site | Mentions légales | Politique de confidentialité</p>
+    </div>
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+</body>
+</html>
