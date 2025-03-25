@@ -14,7 +14,7 @@
     trash.innerHTML='<i class="fa-solid fa-xmark"></i>';
     trash.classList.add("xmark");
     ul.appendChild(trash);
-    // ul.classList.add("nave");
+    // ul.classList.toggle('nave');
     ul.style.display="block"
     burger.style.display="none"
     if (trash) {

@@ -348,13 +348,17 @@ header{
     }
 }
 @media screen and (max-width:414px){
+    /* #moi{
+        margin-top: 6rem;
+        margin-left: 5rem;
+    } */
     .splide__track li{
         text-align: center;
         color: white;
         font-size: 1rem;
     }
     #moi{
-        margin-top: 10rem;
+        margin-top: 6rem;
         margin-left: -1.5rem;
     }
     .knowledge ul{
@@ -364,7 +368,11 @@ header{
         align-items: center;
     }
     .nav ul{
-        padding-top: 8rem;
+        width: 50vh;
+        height: 30vh;
+        padding-top: 15rem;
+        background-color: #1b375d;
+        color: white;
         /* background-color: #1b375d; */
         display: none;
         /* flex-direction: column; */
@@ -372,10 +380,9 @@ header{
         transition: all 0.5s ease;
     }
     .nav ul li{
-        padding:5px 0;
+        padding:3rem 0 0 2rem;
         color: white;
     }
-    
     #burger{
        display: block;
        position: absolute;
@@ -395,7 +402,7 @@ header{
         margin-bottom: -1.5rem;
     }
     #beforefooter{
-        height: 90vh;
+        height: 110vh;
         /* margin-top: -1.5rem; */
         background: url(system-3699542_1280.jpg) 50% 50%;
         background-size: cover;
@@ -407,7 +414,7 @@ header{
     }
     .foot{
         margin-top: -1.7rem;
-        height: 10vh;
+        height: 15vh;
         background: #1b375d;
     }
     header{
@@ -417,13 +424,16 @@ header{
         background-size: cover;
     }
 }
+.nave{
+    position: fixed;
+}
 
 .xmark{
     position: absolute;
     color: white;
     font-size: 1.5rem; 
     top: 1rem;
-    right: 2rem;
+    right: 3rem;
 }
 
 
