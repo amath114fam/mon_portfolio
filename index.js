@@ -15,12 +15,12 @@
     trash.classList.add("xmark");
     ul.appendChild(trash);
     // ul.classList.toggle('nave');
-    ul.style.display="block"
-    burger.style.display="none"
+    ul.style.left="0px"
+    burger.style.display="block"
     if (trash) {
       trash.addEventListener("click",()=>{
-        ul.style.display="none"
-       burger.style.display="block"
+        ul.style.left="-290px"
+        burger.style.display="block"
       })
     }
   })

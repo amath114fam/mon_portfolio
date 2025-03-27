@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -172,12 +172,17 @@ header{
     background: linear-gradient(to right,  #1b375d 85%, rgb(180, 170, 170) 15%);
 }
 .FULLSTACK form button{
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 2.5rem;
     width: 10rem;
     background-color: #1b375d;
     color: white;
     border: none;
+}
+.FULLSTACK form button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
 }
 .citation{
     margin-top: 1.5rem;
@@ -228,7 +233,7 @@ header{
 }
 .opaque form button{
     margin-top: 1rem;
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 2.5rem;
     width: 10rem;
     background-color: #1b375d;
@@ -358,7 +363,7 @@ header{
         font-size: 1rem;
     }
     #moi{
-        margin-top: 8rem;
+        margin-top: 4rem;
         margin-left: -1.5rem;
     }
     .knowledge ul{
@@ -368,21 +373,28 @@ header{
         align-items: center;
     }
     .nav ul{
-        width: 50vh;
-        height: 35vh;
-        padding-top: 15rem;
+        width: 250px;
+        height: 50%;
         background-color: #1b375d;
-        color: white;
-        /* background-color: #1b375d; */
-        display: none;
-        /* flex-direction: column; */
-        /* transform: translateX(10rem); */
+        top: 1rem;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        left: -290px;
         transition: all 0.5s ease;
     }
     .nav ul li{
-        padding:3rem 0 0 2rem;
+        padding:0 0 0 0;
         color: white;
+        font-size: 1rem;
+        font-family: "Gravitas One", serif;
     }
+    .nav ul li a:hover{
+        font-weight: bold;
+        color: #1b375d;
+        background: white;
+    }
+
     #burger{
        display: block;
        position: absolute;
@@ -424,16 +436,16 @@ header{
         background-size: cover;
     }
 }
-.nave{
-    position: fixed;
-}
+/* .nave{
+    left: 0px;
+} */
 
 .xmark{
     position: absolute;
     color: white;
     font-size: 1.5rem; 
     top: 1rem;
-    right: 3rem;
+    right: 2rem;
 }
 
 
