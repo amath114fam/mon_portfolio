@@ -25,3 +25,15 @@
     }
   })
   
+  function sendMail(){
+    let params={
+      name:document.getElementById("nom").value,
+      prenom:document.getElementById("prenom").value,
+      email:document.getElementById("mail").value,
+      subject:document.getElementById("object").value,
+      message:document.getElementById("texter").value,
+      phone:document.getElementById("tel").value,
+    }
+    emailjs.send("service_x58lvu9","template_oia6h6z",params).then(alert("Message envoyé avec succes"));
+  }
+  

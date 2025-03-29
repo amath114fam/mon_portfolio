@@ -362,12 +362,17 @@ header{
         color: white;
         font-size: 1.5rem;
     }
+    #forMe img{
+        height: 300px;
+        margin-left: 0.5rem;
+    }
     #moi{
         margin-top: 10rem;
         margin-left: -1.5rem;
     }
     .knowledge ul{
-        padding-right: 1rem;
+        /* padding-right: 1rem; */
+        margin-right: 3rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -384,6 +389,9 @@ header{
         margin-top: 6rem;
         margin-left: 5rem;
     } */
+     .now p{
+      padding-top: 3.5rem;
+     }
     .splide__track li{
         text-align: center;
         color: white;
