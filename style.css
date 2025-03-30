@@ -251,7 +251,8 @@ header{
     color: white;
 }
 .opaque form{
-    margin-left: 15rem;
+    padding: ;
+    /* margin-left: 15rem; */
 }
 .opaque{
     border-radius: 20px;
@@ -340,8 +341,8 @@ header{
         background-color: rgba(0, 0, 0, 0.5)
     }
     .opaque form input{
-        margin-bottom: 1rem;
-        width: 30px;
+        margin-bottom: 0rem;
+        width: 0px;
     }
     .opaque form{
         margin-left: 2rem;
