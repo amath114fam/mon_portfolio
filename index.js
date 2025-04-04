@@ -16,7 +16,7 @@
     ul.appendChild(trash);
     // ul.classList.toggle('nave');
     ul.style.left="0px"
-    burger.style.display="block"
+    // burger.style.display="block"
     if (trash) {
       trash.addEventListener("click",()=>{
         ul.style.left="-290px"
@@ -43,7 +43,7 @@
     const mailvide=maile.trim()===""
     const messvide=mess.trim()===""
     if (nomvide||mailvide||messvide) {
-      alert("non");
+      alert("Veillez remplir les formulaires obligatoires(*)");
     } else {
       sendMail();
     }

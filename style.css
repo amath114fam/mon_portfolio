@@ -55,6 +55,9 @@ header{
     list-style: none;
     text-align: center;
     padding: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px blue;
 }
 #moi ul li a{
     text-decoration: none;
@@ -179,6 +182,18 @@ header{
     color: white;
     border: none;
 }
+#rea button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#rea button{
+    height: 2.5rem;
+    width: 10rem;
+    background-color: #1b375d;
+    color: white;
+    border: none
+}
 .FULLSTACK form button a{
     text-decoration: none;
     color: white;
@@ -203,11 +218,6 @@ header{
 #beforefooter p{
     text-align: center;
     color: white;
-}
-.opaque{
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 #nom, #prenom, #mail, #tel, #object{
     width: 30rem;
@@ -257,7 +267,7 @@ header{
 .opaque{
     border-radius: 20px;
     margin: auto;
-    width: 80%;
+    width: 60%;
     background-color: rgba(0, 0, 0, 0.5)
 }
 #beforefooter{
@@ -491,7 +501,33 @@ header{
     top: 1rem;
     right: 2rem;
 }
+/* **************************************************************************** */
+#porte{
+    text-align: center;
+}
+.portfo{
+    padding: 40px 10%;
 
+}
+.produ{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
-
-
+}
+.produ .cart{
+    width: 310px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgb(0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.produ .cart .img img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+.produ .cart .des{
+    padding: 5px 20px;
+    width: 0,8;
+}
