@@ -23,7 +23,7 @@ header{
 #burger{
     display: none;
     position: absolute;
-    margin-left: 22rem;
+    margin-left: 20rem;
 }
 .nav ul li{
     list-style: none;
@@ -300,6 +300,11 @@ header{
 }
 
 /* *************************responsive**************************** */
+@media screen and (min-width:982px){
+    .opaque form{
+        margin-left: 10rem;
+    }
+}
 @media screen and (max-width:960px){
     #i1,#i2,#i3,#i4,#i5,#i6,#i7{
         width: 90%;
@@ -485,10 +490,37 @@ header{
         background-size: cover;
     }
 }
-@media screen and (min-width:982px){
-    .opaque form{
-        margin-left: 10rem;
+@media(max-width:360px){
+     #burger{
+       display: block;
+       position: absolute;
+       color: white;
+       font-size: 1.5rem; 
     }
+    /* #i1,#i2,#i3,#i4,#i5,#i6,#i7{
+        width: 70%;
+    } */
+    .opaque{
+        border-radius: 20px;
+        margin: auto;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5)
+    }
+    .opaque form{
+        margin-left: 1rem;
+    }
+    #contacts{
+       margin-left: 1rem;
+    }
+    .produ .cart{
+        width: 310px;
+        background: #f5f5f5;
+        box-shadow: 0 10px 20px rgb(0, 0, 0.3);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: -0.8rem;
+    }
+    
 }
 /* .nave{
     left: 0px;
