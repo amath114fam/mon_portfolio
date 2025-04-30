@@ -103,6 +103,8 @@ header{
     line-height: 2rem;
 }
 #forMe h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
     color: #1b375d;
 }
