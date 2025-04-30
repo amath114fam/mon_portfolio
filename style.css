@@ -85,6 +85,9 @@ header{
     color: white;
     border: none;
 }
+#forMe{
+    padding: 20px 0px;
+}
 #forMe img{
     height: 250px;
     margin-left: 10rem;
